@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GM & Sons | Islamabad No.1 Air Conditioner Services Company</title>
+
+  <meta name="description" content="GM & Sons - Islamabad No.1 AC Repair, AC Installation, AC Maintenance, AC Gas Filling, Inverter AC Repair, Heating & Cooling Services. Emergency Services Available. Call Now!" />
+  <meta name="keywords" content="AC repair Islamabad, AC maintenance Islamabad, AC gas filling Islamabad, inverter AC repair Islamabad, AC installation Islamabad, heating cooling Islamabad" />
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f6f8fb;
+      color:#111;
+      line-height:1.7;
+    }
+
+    header{
+      background:linear-gradient(135deg,#0d6efd,#00c6ff);
+      color:white;
+      padding:22px 15px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:30px;
+      font-weight:bold;
+    }
+
+    header p{
+      font-size:15px;
+      margin-top:6px;
+      opacity:0.95;
+    }
+
+    nav{
+      background:#111;
+      padding:12px;
+      text-align:center;
+      position:sticky;
+      top:0;
+      z-index:999;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 12px;
+      font-weight:bold;
+      font-size:14px;
+    }
+
+    nav a:hover{
+      color:#00c6ff;
+    }
+
+    .hero{
+      padding:30px 15px;
+      background:white;
+      text-align:center;
+    }
+
+    .hero h2{
+      font-size:26px;
+      color:#0d6efd;
+      margin-bottom:10px;
+    }
+
+    .hero p{
+      font-size:15px;
+      max-width:850px;
+      margin:auto;
+      margin-bottom:15px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 18px;
+      margin:7px;
+      border-radius:10px;
+      font-size:16px;
+      font-weight:bold;
+      text-decoration:none;
+      color:white;
+    }
+
+    .callbtn{
+      background:#198754;
+    }
+
+    .whatsappbtn{
+      background:#25D366;
+    }
+
+    .container{
+      width:95%;
+      max-width:1150px;
+      margin:auto;
+      padding:20px 0;
+    }
+
+    .section{
+      background:white;
+      padding:22px;
+      margin-bottom:18px;
+      border-radius:12px;
+      box-shadow:0 0 12px rgba(0,0,0,0.08);
+    }
+
+    .section h3{
+      font-size:22px;
+      color:#0d6efd;
+      margin-bottom:12px;
+    }
+
+    .two-col{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:18px;
+      align-items:center;
+    }
+
+    .two-col img{
+      width:100%;
+      border-radius:12px;
+      border:1px solid #ddd;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:15px;
+      margin-top:10px;
+    }
+
+    .service-box{
+      background:#f2f9ff;
+      padding:16px;
+      border-radius:12px;
+      border:1px solid #dbefff;
+    }
+
+    .service-box h4{
+      font-size:17px;
+      margin-bottom:8px;
+    }
+
+    .service-box p{
+      font-size:14px;
+      margin-bottom:12px;
+    }
+
+    .service-box a{
+      display:inline-block;
+      background:#25D366;
+      color:white;
+      padding:10px 14px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+      font-size:14px;
+    }
+
+    .service-box a:hover{
+      opacity:0.85;
+    }
+
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:15px;
+      text-align:center;
+      margin-top:10px;
+    }
+
+    .stat-box{
+      background:#f8f9fa;
+      padding:18px;
+      border-radius:12px;
+      border:1px solid #ddd;
+    }
+
+    .stat-box h2{
+      color:#198754;
+      font-size:26px;
+      margin-bottom:5px;
+    }
+
+    .review-box{
+      background:#f8f9fa;
+      padding:15px;
+      border-radius:12px;
+      border:1px solid #ddd;
+      margin-bottom:12px;
+    }
+
+    .review-box strong{
+      color:#0d6efd;
+    }
+
+    .scroll-logos{
+      overflow:hidden;
+      white-space:nowrap;
+      background:#111;
+      color:white;
+      padding:12px;
+      border-radius:10px;
+      margin-top:12px;
+    }
+
+    .scroll-logos span{
+      display:inline-block;
+      padding-left:100%;
+      animation: scroll 18s linear infinite;
+      font-weight:bold;
+      font-size:14px;
+    }
+
+    @keyframes scroll{
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    ul{
+      padding-left:20px;
+      margin-top:8px;
+    }
+
+    footer{
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:18px;
+      font-size:14px;
+      margin-top:20px;
+    }
+
+    .floating-call{
+      position:fixed;
+      bottom:75px;
+      right:15px;
+      background:#198754;
+      color:white;
+      padding:12px 15px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .floating-whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:15px;
+      background:#25D366;
+      color:white;
+      padding:12px 15px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .contact-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:18px;
+    }
+
+    input, textarea{
+      width:100%;
+      padding:10px;
+      margin-top:6px;
+      border-radius:8px;
+      border:1px solid #ccc;
+    }
+
+    button{
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      background:#0d6efd;
+      color:white;
+      border:none;
+      border-radius:10px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#084bb8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>GM & Sons</h1>
+  <p>Islamabad No.1 Air Conditioner Services Company | Certification | Guarantee</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#why">Why Us</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#areas">Islamabad Areas</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h2>Top AC Repair & Maintenance Company in Islamabad</h2>
+  <p>
+    GM & Sons provides complete AC repair, inverter AC repair, AC installation, AC maintenance, AC gas filling,
+    heating & cooling services, oven repair and washing machine repair services in Islamabad.
+  </p>
+
+  <a class="btn callbtn" href="tel:03275087764">📞 Call Now</a>
+  <a class="btn whatsappbtn" href="https://wa.me/923275087764" target="_blank">💬 WhatsApp Now</a>
+</section>
+
+<div class="container">
+
+  <div class="section" id="about">
+    <h3>10 Years Experience</h3>
+
+    <div class="two-col">
+      <div>
+        <p>
+          GM & Sons is a professional home appliance repair company in Islamabad. We have more than 10 years
+          experience in AC repair, installation and maintenance. We provide expert technicians, fast service,
+          original parts and customer satisfaction.
+        </p>
+
+        <p>
+          Our technicians are trained, certified and experienced. We always focus on quality service, affordable pricing,
+          and guaranteed results. We provide services for homes, offices, shops and commercial buildings.
+        </p>
+
+        <p>
+          If your AC is not cooling, making noise, leaking water, or needs gas filling, our team is ready to help.
+        </p>
+
+        <p>
+          We believe in long term customer trust and professional work. GM & Sons is the best choice for AC services in Islamabad.
+        </p>
+      </div>
+
+      <div>
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=80" alt="AC Technician Working">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Emergency Heating Services</h3>
+
+    <div class="two-col">
+      <div>
+        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1000&q=80" alt="Emergency Repair Service">
+      </div>
+
+      <div>
+        <p>
+          GM & Sons provides emergency AC and heating services in Islamabad. If your AC stops working suddenly,
+          or your heating system fails in winter, our emergency team is available to solve your problem quickly.
+        </p>
+
+        <p>
+          We offer fast diagnosis, quick repair and immediate support. Our emergency services are designed for
+          homes, offices and commercial buildings.
+        </p>
+
+        <p>
+          We understand the importance of comfort in hot summers and cold winters. That is why our team is always ready.
+        </p>
+
+        <p>
+          Call us anytime and get immediate AC repair, gas filling, maintenance and heating solutions in Islamabad.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="why">
+    <h3>Top Heating Service Guarantee</h3>
+
+    <p>
+      GM & Sons is known for top quality work, certified technicians, and guaranteed services.
+      We provide professional customer support and trusted repair solutions.
+    </p>
+
+    <ul>
+      <li>Certified & Professional Technicians</li>
+      <li>Top Quality Guaranteed Service</li>
+      <li>Fast Emergency Support in Islamabad</li>
+      <li>Affordable Pricing</li>
+      <li>Experienced Heating & Cooling Experts</li>
+      <li>Customer Satisfaction Priority</li>
+    </ul>
+
+    <p style="margin-top:10px;"><strong>Do you have any questions?</strong> Call or WhatsApp us now.</p>
+    <a class="btn whatsappbtn" href="https://wa.me/923275087764" target="_blank">💬 Ask on WhatsApp</a>
+  </div>
+
+  <div class="section">
+    <h3>GM & Sons CEO</h3>
+
+    <div class="two-col">
+      <div>
+        <p>
+          GM & Sons is managed by professional leadership with a strong vision to provide high quality AC and
+          appliance repair services in Islamabad.
+        </p>
+
+        <p>
+          Our goal is to give fast service, honest work, and 100% customer satisfaction.
+        </p>
+
+        <p><strong>CEO:</strong> GM & Sons</p>
+      </div>
+
+      <div>
+        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1000&q=80" alt="CEO Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Our Team & Happy Clients</h3>
+
+    <div class="stats">
+      <div class="stat-box">
+        <h2>5800+</h2>
+        <p>Team Members</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>10,000+</h2>
+        <p>Happy Clients</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>900+</h2>
+        <p>Google Reviews</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>10+</h2>
+        <p>Years Experience</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="services">
+    <h3>Services We Offer</h3>
+
+    <div class="services">
+
+      <div class="service-box">
+        <h4>AC Repair Services</h4>
+        <p>Professional AC repair in Islamabad for all brands with guaranteed results.</p>
+        <a href="https://wa.me/923275087764" target="_blank">WhatsApp Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>AC Installation</h4>
+        <p>Complete AC installation service including copper pipe fitting and wiring.</p>
+        <a href="tel:03275087764">Call Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>Inverter AC Repair</h4>
+        <p>Expert inverter AC repairing, PCB issues, cooling problems and maintenance.</p>
+        <a href="tel:03275087764">Call Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>AC Maintenance</h4>
+        <p>AC full service, cleaning, filter wash, coil cleaning and tuning.</p>
+        <a href="https://wa.me/923275087764" target="_blank">WhatsApp Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>AC Gas Filling</h4>
+        <p>AC gas filling service with leakage check and pressure testing.</p>
+        <a href="tel:03275087764">Call Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>Heating & Cooling Services</h4>
+        <p>Complete heating and cooling service for homes and commercial buildings.</p>
+        <a href="https://wa.me/923275087764" target="_blank">WhatsApp Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>VRF Services</h4>
+        <p>VRF system repair, installation, maintenance and troubleshooting.</p>
+        <a href="tel:03275087764">Call Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>Oven Repair</h4>
+        <p>Oven repair, burner issue, heating problem, glass replacement & maintenance.</p>
+        <a href="https://wa.me/923275087764" target="_blank">WhatsApp Now</a>
+      </div>
+
+      <div class="service-box">
+        <h4>Washing Machine Repair</h4>
+        <p>Automatic washing machine repair, motor issue, drum problem & maintenance.</p>
+        <a href="tel:03275087764">Call Now</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Why Choose GM & Sons?</h3>
+
+    <div class="two-col">
+      <div>
+        <p>
+          We are trusted because we provide professional services with guarantee and certification.
+          Our technicians work carefully and provide top quality results.
+        </p>
+
+        <ul>
+          <li>Fast Response Time</li>
+          <li>Affordable Service Charges</li>
+          <li>Expert Team</li>
+          <li>100% Customer Satisfaction</li>
+          <li>Emergency Support Available</li>
+        </ul>
+      </div>
+
+      <div>
+        <img src="https://images.unsplash.com/photo-1581092160613-f6aa7d1f8c03?auto=format&fit=crop&w=1000&q=80" alt="Technician Working">
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="reviews">
+    <h3>What People Are Talking About</h3>
+    <p><strong>GM & Sons Best AC Repair & Maintenance Company in Islamabad</strong></p>
+    <p>900+ Google Reviews | <a href="#" style="color:#0d6efd;font-weight:bold;">Write a Review</a></p>
+
+    <div style="margin-top:15px;">
+      <div class="review-box">
+        <p><strong>Mansoor Ahmed</strong> ⭐⭐⭐⭐⭐</p>
+        <p>Very professional team. My AC was not cooling and they fixed it in 30 minutes. Highly recommended!</p>
+      </div>
+
+      <div class="review-box">
+        <p><strong>Ali Raza</strong> ⭐⭐⭐⭐⭐</p>
+        <p>Excellent service and reasonable charges. Technician was certified and professional.</p>
+      </div>
+
+      <div class="review-box">
+        <p><strong>Hassan Khan</strong> ⭐⭐⭐⭐⭐</p>
+        <p>Emergency service was very fast. Best AC maintenance service in Islamabad.</p>
+      </div>
+    </div>
+
+    <div class="scroll-logos">
+      <span>
+        ★ AC Repair Islamabad ★ AC Installation ★ AC Maintenance ★ Emergency AC Repair ★ Inverter AC Repair ★ Gas Filling ★ Heating & Cooling ★ VRF Services ★
+      </span>
+    </div>
+  </div>
+
+  <div class="section" id="areas">
+    <h3>Islamabad Areas We Serve</h3>
+    <p>We provide services in all Islamabad sectors including:</p>
+
+    <ul>
+      <li>F-6, F-7, F-8, F-10, F-11</li>
+      <li>G-6, G-7, G-8, G-9, G-10, G-11, G-13</li>
+      <li>DHA Islamabad Phase 1 to Phase 7</li>
+      <li>Bahria Enclave Islamabad</li>
+      <li>Gulberg Greens Islamabad</li>
+      <li>Top City, Airport Housing Society</li>
+      <li>All nearby societies in Islamabad</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h3>Find Us / Contact Us</h3>
+
+    <div class="contact-grid">
+
+      <div>
+        <p><strong>Deal Comfort Now!</strong></p>
+        <p>Call GM & Sons today for fast AC repair, maintenance, installation and gas filling services in Islamabad.</p>
+
+        <p><strong>📞 Phone:</strong> 03275087764</p>
+        <p><strong>💬 WhatsApp:</strong> 03275087764</p>
+        <p><strong>📍 Location:</strong> Islamabad, Pakistan</p>
+
+        <br>
+        <h4 style="color:#0d6efd;">Google Map</h4>
+
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.384523606815!2d73.0479!3d33.6844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbdc1b1b1b1b1%3A0x1234567890abcdef!2sIslamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v0000000000000"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+      </div>
+
+      <div>
+        <h4 style="color:#0d6efd;">Send Message</h4>
+
+        <form>
+          <label>Your Name</label>
+          <input type="text" placeholder="Enter your name" required>
+
+          <label>Your Phone Number</label>
+          <input type="text" placeholder="Enter your phone number" required>
+
+          <label>Your Message</label>
+          <textarea rows="5" placeholder="Write your problem..." required></textarea>
+
+          <button type="button" onclick="alert('Thank you! Please Call or WhatsApp GM & Sons at 03275087764')">
+            Submit
+          </button>
+        </form>
+
+        <br>
+        <p><strong>Follow Us:</strong></p>
+        <p>Facebook | Instagram | Google Business Profile</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 GM & Sons | Islamabad No.1 Air Conditioner Services Company</p>
+  <p>Call / WhatsApp: 03275087764</p>
+</footer>
+
+<a class="floating-call" href="tel:03275087764">📞 Call</a>
+<a class="floating-whatsapp" href="https://wa.me/923275087764" target="_blank">💬 WhatsApp</a>
+
+</body>
+</html>
