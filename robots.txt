@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://na8462646-boop.github.io/GM-SONS/sitemap.xml
